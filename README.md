@@ -7,12 +7,19 @@
 [![Naver Whale Store](https://img.shields.io/badge/Whale-설치하기-00C73C?style=for-the-badge&logo=naver&logoColor=white)](https://store.whale.naver.com/detail/cchlnnggipcgibmenkecghehphhdblii)
 [![Firefox Add-ons](https://img.shields.io/badge/Firefox-설치하기-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/ko/firefox/addon/%ED%86%B5%EB%82%98%EB%AC%B4-%ED%8C%8C%EC%9B%8C-%EC%A7%80%EC%9A%B0%EA%B0%9C/)
 
+<br>
+
+![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/npghhgjfapajogklmofacjfmpliolmjc?style=for-the-badge&logo=googlechrome&logoColor=white&color=4285F4&label=Chrome%20Users)
+[![Edge Add-on Users](https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=microsoftedge&label=Edge%20Users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fheekofjpfdlpaibniimndbnollhmabhb)](https://microsoftedge.microsoft.com/addons/detail/%ED%86%B5%EB%82%98%EB%AC%B4-%ED%8C%8C%EC%9B%8C-%EC%A7%80%EC%9A%B0%EA%B0%9C/heekofjpfdlpaibniimndbnollhmabhb)
+[![Naver Whale Users](https://img.shields.io/endpoint?style=for-the-badge&logo=naver&logoColor=white&url=https%3A%2F%2Fgist.githubusercontent.com%2Flirpa62%2Fff310f381a13d9e4d831f8a7f7c89062%2Fraw%2FLogpower-Eraser-Users.json)](https://store.whale.naver.com/detail/cchlnnggipcgibmenkecghehphhdblii)
+![Mozilla Add-on Users](https://img.shields.io/amo/users/%ED%86%B5%EB%82%98%EB%AC%B4-%ED%8C%8C%EC%9B%8C-%EC%A7%80%EC%9A%B0%EA%B0%9C?style=for-the-badge&logo=firefoxbrowser&logoColor=white&color=FF7139&label=Firefox%20Users)
+
 </div>
 
 **내 통나무 파워 목록, 이제 깔끔하게 정리하세요!**
 
 수많은 스트리머의 통나무 파워가 쌓여 목록이 지저분해 보였나요?
-**'통나무 파워 지우개'**는 치지직 프로필의 '내 통나무 파워' 목록에서 더 이상 보고 싶지 않은 채널을 손쉽게 숨길 수 있는 확장 프로그램입니다. 이제 클릭 한 번으로 나만의 목록을 깔끔하게 관리해 보세요.
+**'통나무 파워 지우개'** 는 치지직 프로필의 '내 통나무 파워' 목록에서 더 이상 보고 싶지 않은 채널을 손쉽게 숨길 수 있는 확장 프로그램입니다. 이제 클릭 한 번으로 나만의 목록을 깔끔하게 관리해 보세요.
 
 <div align="center">
   <img src="logpower_eraser.png" alt="통나무 파워 지우개" width="600"/>
