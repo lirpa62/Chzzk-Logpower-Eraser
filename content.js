@@ -1,6 +1,22 @@
 // 설정
-const HEADER_SELECTOR = "[class*='profile_common_header__']";
-const LIST_ITEM_SELECTOR = "[class*='channel_power_item__']";
+// 치지직 업데이트로 클래스명이 해시(_xxxx_xxx) 형태로만 바뀌므로,
+// 해시 접미사에 의존하지 않고 구조/속성 기반으로 선택한다.
+//
+// "내 통나무 파워" 섹션의 제목 텍스트. 이 제목을 기준으로 헤더를 찾는다.
+const HEADER_TITLE_TEXT = "내 통나무 파워";
+// 채널별 통나무 파워 목록의 각 아이템 (<li> 안에 채널 링크 포함)
+const LIST_ITEM_SELECTOR = "li:has(a[href*='chzzk.naver.com'])";
+
+// "내 통나무 파워" 제목 요소를 찾아 그 부모(헤더 영역)를 반환한다.
+function findHeader() {
+  const titles = document.querySelectorAll("h1, h2, h3, h4, h5, h6, strong");
+  for (const el of titles) {
+    if (el.textContent.trim() === HEADER_TITLE_TEXT) {
+      return el.parentElement;
+    }
+  }
+  return null;
+}
 
 // 1. 페이지 로드 및 동적 변경 감지
 const observer = new MutationObserver(() => {
@@ -19,7 +35,7 @@ if (location.hash.includes("channel_power")) {
 
 // 2. 버튼 주입
 function injectButton() {
-  const header = document.querySelector(HEADER_SELECTOR);
+  const header = findHeader();
   if (header && !document.getElementById("log-eraser-trigger")) {
     const btn = document.createElement("button");
     btn.id = "log-eraser-trigger";

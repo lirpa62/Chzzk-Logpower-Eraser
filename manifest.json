@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "통나무 파워 지우개",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "치지직 통나무 파워 목록에서 원하지 않는 채널을 지워 깔끔하게 관리하세요.",
   "permissions": ["storage", "tabs", "scripting"],
   "host_permissions": [
